@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Itim&family=Livvic:wght@400;700&family=Lora:wght@500&family=Sunflower:wght@300&family=Tienne:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-image: url("https://w.forfun.com/fetch/cc/ccf73d1de40d9728480fd1cefa3dfcfe.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.discover {
+    color: white;
+    font-size: 85px;
+    text-align: center;
+    padding-top: 20%;
+}
+
+.sub-discover {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    padding: 0 25%;
+}
+
+.buttons {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Tienne', serif;
+}
+
+.buttons .button1 {
+    background-color: white;
+    color: #000;
+    width: 143px;
+    height: 54;
+    margin-right: 35px;
+}
+
+.buttons .button2 {
+    background-color: #004375;
+    color: #fff;
+    width: 200px;
+    height: 54;
+    margin-right: 35px;
+}
+
+.service,
+.packages,
+.contact {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.ser-prod,
+.packages-heading,
+.contact-heading {
+    font-size: 45px;
+    font-family: 'Livvic', sans-serif;
+    font-weight: 800;
+}
+
+.sub-ser-prod,
+.sub-packages-heading {
+    font-size: 24px;
+    font-family: 'Lora', serif;
+}
+
+.products-and-services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    margin-top: 50px;
+}
+
+.card {
+    transition: .3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.footer-service-products {
+    text-align: center;
+    margin-top: 4%;
+    font-size: 22px;
+    font-family: 'Sunflower', sans-serif;
+}
+
+.card-body .card-title {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 25px;
+    font-family: 'Tienne', serif;
+}
+
+.card-text {
+    font-size: 20px;
+    font-family: 'Sunflower', sans-serif;
+    text-align: center;
+}
+
+.card-text-div {
+    margin-top: 25px;
+}
+
+.first-card-text {
+    padding: 0 20px;
+}
+
+.third-card {
+    padding: 0 15px;
+}
+
+.card:hover {
+    box-shadow: rgb(0, 238, 255) 0px 5px 15px;
+}
+
+.register a {
+    text-decoration: none;
+    color: #000000;
+    transition: .3s;
+}
+
+.register a:hover {
+    color: #0011ff;
+}
+
+.sub-packages-heading {
+    margin: 30px 20%;
+}
+
+.contents {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.pack {
+    width: 584px;
+    height: 291px;
+    background-color: #EEEAEA;
+}
+
+.package-type {
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: 'Itim', cursive;
+    text-align: center;
+}
+
+.package-item,
+.custom-package {
+    margin-top: 30px;
+    /* border: 2px solid black; */
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: 'Livvic', sans-serif;
+    font-weight: 400;
+
+}
+
+.grid-package-item {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+}
+
+.pack button {
+    width: 150px !important;
+}
+
+
+
+.call,
+.location,
+.email {
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 100px;
+}
+
+.call-content,
+.location-content,
+.email-content {
+    width: 80%;
+    padding-left: 40px;
+}
+
+.information {
+    width: 50%;
+}
+
+.location-content p {
+    text-align: center;
+}
+
+.call-content h1,
+.location-content h1,
+.email-content h1 {
+    font-size: 25px;
+    font-family: 'Tienne', serif;
+    font-weight: 700;
+}
+
+.call-content p,
+.location-content p,
+.email-content p {
+    font-size: 18px;
+    font-family: 'Tienne', serif;
+    font-weight: 400;
+
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.form-to-contact {
+    margin-top: 80px;
+    width: 50%;
+}
+
+.button-success {
+    margin-bottom: 40px;
+}
+
+.footer {
+    background-color: #82BEF6;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 33%;
+}
+
+.footer-col h4 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Livvic', sans-serif;
+    color: #000000;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: 700;
+    position: relative;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li {
+    list-style: none;
+}
+
+.footer-col ul li a {
+    margin: 0 40px;
+    font-family: 'Livvic', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #7e7e7e;
+    padding-left: 8px;
+}
+
+@media (max-width: 1286px) {
+    .contents {
+        justify-content: center;
+    }
+
+    .pack {
+        width: 80%;
+        height: 350px;
+        background-color: #EEEAEA;
+    }
+
+    .package-type {
+        margin-top: 50px;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .discover {
+        font-size: 50px;
+        padding-top: 45%;
+    }
+
+    .sub-discover {
+        font-size: 18px;
+    }
+
+    .buttons .button1 {
+        font-size: 15px;
+        width: 110px;
+        height: 45;
+    }
+
+    .buttons .button2 {
+        font-size: 15px;
+        width: 150px;
+        height: 45;
+    }
+
+    .footer-service-products {
+        margin-top: 4%;
+        font-size: 18px;
+    }
+
+    .service,
+    .packages,
+    .contact {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .ser-prod,
+    .packages-heading,
+    .contact-heading {
+        font-size: 35px;
+        font-family: 'Livvic', sans-serif;
+        font-weight: 800;
+    }
+
+    .sub-ser-prod,
+    .sub-packages-heading {
+        font-size: 20px;
+        font-family: 'Lora', serif;
+    }
+
+    .call-content h1,
+    .location-content h1,
+    .email-content h1 {
+        font-size: 18px;
+        font-family: 'Tienne', serif;
+        font-weight: 600;
+    }
+
+    .call-content p,
+    .location-content p,
+    .email-content p {
+        font-size: 12px;
+        font-family: 'Tienne', serif;
+        font-weight: 400;
+    }
+
+    .flexbox {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .information,
+    .form-to-contact {
+        width: 100%;
+    }
+
+    .justify-content-md-end {
+        justify-content: end !important; 
+    }
+    .pack {
+        width: 100vw;
+        height: 350px;
+        background-color: #EEEAEA;
+    }
+
+    .footer .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-col {
+        width: 100%;
+    }
+
+    .footer-col h4 {
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}

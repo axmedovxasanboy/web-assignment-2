@@ -12,30 +12,30 @@ html {
 }
 
 .bg {
-    background-image: url("https://w.forfun.com/fetch/cc/ccf73d1de40d9728480fd1cefa3dfcfe.jpeg");
+    background-image: url('../Images/bg-image.jpg');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.discover {
-    color: white;
+/* .discover {
+    color: #161616;
     font-size: 85px;
     text-align: center;
-    padding-top: 20%;
-}
+    padding-top: 5%;
+} */
 
-.sub-discover {
+/* .sub-discover {
     color: white;
     font-size: 25px;
     text-align: center;
     font-family: 'Comfortaa', cursive;
     padding: 0 25%;
-}
+} */
 
 .buttons {
-    margin-top: 30px;
+    padding-top: 40%;
     text-align: center;
     font-family: 'Tienne', serif;
 }
@@ -149,6 +149,12 @@ html {
 
 .pack {
     width: 584px;
+    height: 291px;
+    background-color: #EEEAEA;
+}
+.gold{
+    width: 80%;
+    margin: auto;
     height: 291px;
     background-color: #EEEAEA;
 }

@@ -150,13 +150,12 @@ html {
 .pack {
     width: 584px;
     height: 291px;
-    background-color: #EEEAEA;
+    background-color: #bfa7a7;
 }
 .gold{
     width: 80%;
     margin: auto;
     height: 291px;
-    background-color: #EEEAEA;
 }
 
 .package-type {
